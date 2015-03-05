@@ -1,7 +1,6 @@
 @charset 'UTF-8';
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
-
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,700");
 /*
 	Tessellate by HTML5 UP
 	html5up.net | @n33co
@@ -620,92 +619,7 @@
 						background: rgba(255,255,255,0.1);
 					}
 	
-	/* Button */
-		
-		input[type="button"],
-		input[type="submit"],
-		input[type="reset"],
-		.button
-		{
-			-webkit-appearance: none;
-			position: relative;
-			display: inline-block;
-			background: #3d3d3d;
-			padding: 0.85em 3em 0.85em 3em;
-			border-radius: 0.25em;
-			cursor: pointer;
-			border: 0;
-			color: #fff;
-			text-align: center;
-			text-decoration: none;
-			-moz-transition: all 0.25s ease-in-out;
-			-webkit-transition: all 0.25s ease-in-out;
-			-o-transition: all 0.25s ease-in-out;
-			-ms-transition: all 0.25s ease-in-out;
-			transition: all 0.25s ease-in-out;
-		}
-
-			input[type="button"]:hover,
-			input[type="submit"]:hover,
-			input[type="reset"]:hover,
-			.button:hover
-			{
-				background: #4f4f4f;
-			}
-			
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		.button.alt
-		{
-			color: inherit;
-			box-shadow: inset 0 0 0 1px #e6e6e6;
-			background: none;
-		}
-		
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			.button.alt:hover
-			{
-				background: rgba(0,0,0,0.025);
-			}
-
-			.dark input[type="button"],
-			.dark input[type="submit"],
-			.dark input[type="reset"],
-			.dark .button
-			{
-				background: rgba(255,255,255,0.15);
-				box-shadow: inset 0 0 0 1px #fff;
-				color: #fff;
-			}
-			
-				.dark input[type="button"]:hover,
-				.dark input[type="submit"]:hover,
-				.dark input[type="reset"]:hover,
-				.dark .button:hover
-				{
-					background: rgba(255,255,255,0.25);
-				}
-
-			.dark input[type="button"].alt,
-			.dark input[type="submit"].alt,
-			.dark input[type="reset"].alt,
-			.dark .button.alt
-			{
-				background: none;
-				box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
-			}
-
-				.dark input[type="button"].alt:hover,
-				.dark input[type="submit"].alt:hover,
-				.dark input[type="reset"].alt:hover,
-				.dark .button.alt:hover
-				{
-					background: rgba(255,255,255,0.15);
-					box-shadow: inset 0 0 0 1px #fff;
-				}
+	
 
 	/* Feature Icon */
 
@@ -833,6 +747,7 @@
 			#header header h1
 			{
 				font-size: 2.25em;
+				font-weight: 400;
 				line-height: 1.25em;
 				margin-bottom: 0;
 			}
@@ -845,6 +760,8 @@
 				font-size: 1.25em;
 				line-height: 1.5em;
 				text-align: center;
+				opacity: .6;
+				color: #fff;
 			}
 			
 		#header footer
